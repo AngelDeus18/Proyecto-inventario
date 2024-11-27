@@ -1,0 +1,73 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    overflow: hidden;
+    background-color: #E3D8F1;
+}
+.container-form {
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crud {
+    overflow-x: auto;
+    border-radius: 5px;
+    width: 80%;
+    max-height: 400px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+thead th {
+    text-align: center;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+thead {
+    
+    background-color: #3498db;
+    color: white;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.my-button-editar, .my-button-eliminar {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.my-button-editar {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.my-button-eliminar {
+    background-color: #a31e0f;
+    color: white;
+}
+
+.my-button-editar:hover {
+    background-color: #27ae60;
+}
+
+.my-button-eliminar:hover {
+    background-color: #ed5342;
+}
